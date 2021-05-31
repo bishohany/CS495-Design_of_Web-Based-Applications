@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Project
 {
-    public partial class SignIn : System.Web.UI.Page
+    public partial class signin : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

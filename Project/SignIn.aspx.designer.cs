@@ -10,7 +10,7 @@
 
 namespace Project
 {
-    public partial class SignIn
+    public partial class signin
     {
 
         /// <summary>

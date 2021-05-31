@@ -15,4 +15,5 @@
     [Gender] NCHAR(1) NOT NULL, 
     [Degree] FLOAT NOT NULL, 
     PRIMARY KEY ([NaID])
+CONSTRAINT [CK_Student_Column] CHECK ([Gender]='M' OR [Gender]='F')
 )
