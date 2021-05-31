@@ -66,6 +66,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".mdf" />
+    <Content Include="App_Data\Database.mdf" />
+    <Content Include="App_Data\Database_log.ldf">
+      <DependentUpon>Database.mdf</DependentUpon>
+    </Content>
     <Content Include="index.html" />
     <Content Include="logo.html" />
     <Content Include="SignIn.aspx" />
