@@ -26,18 +26,24 @@
                     <table class="style1">
             <tr>
                 <td class="style3">
-                    &nbsp;</td>
+                    <asp:HyperLink ID="HyperLink1" runat="server" Font-Names="Arial" 
+                        Font-Size="Medium" ForeColor="#000066" NavigateUrl="index.html" 
+                        Target="F5">Home</asp:HyperLink>
+                </td>
                 <td class="style2">
                     <asp:HyperLink ID="HyperLink2" runat="server" Font-Names="Arial" 
-                        Font-Size="Medium" ForeColor="#000066" NavigateUrl="signin.aspx" 
-                        Target="F4">Sign In</asp:HyperLink>
-                </td>
-                <td class="style2">
-                    <asp:HyperLink ID="HyperLink1" runat="server" Font-Names="Arial" 
                         Font-Size="Medium" ForeColor="#000066" NavigateUrl="signup.aspx" 
-                        Target="F4">Sign Up</asp:HyperLink>
+                        Target="F5">Sign Up</asp:HyperLink>
                 </td>
                 <td class="style2">
+                    <asp:HyperLink ID="HyperLink3" runat="server" Font-Names="Arial" 
+                        Font-Size="Medium" ForeColor="#000066" NavigateUrl="signin.aspx" 
+                        Target="F5">Sign In</asp:HyperLink>
+                </td>
+                <td class="style2">
+                    <asp:HyperLink ID="HyperLink4" runat="server" Font-Names="Arial" 
+                        Font-Size="Medium" ForeColor="#000066" NavigateUrl="signin2.aspx" 
+                        Target="F5">Sign In Admin</asp:HyperLink>
                 </td>
                 <td class="style2">
                 </td>

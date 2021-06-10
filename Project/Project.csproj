@@ -58,6 +58,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="hometome.aspx" />
+    <Content Include="homeuser.Master" />
+    <Content Include="homeadmin.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -66,20 +69,57 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bg2.html" />
+    <Content Include="bg3.html" />
+    <Content Include="homeadmin.aspx" />
     <Content Include="App_Data\Database.mdf" />
     <Content Include="App_Data\Database_log.ldf">
       <DependentUpon>Database.mdf</DependentUpon>
     </Content>
+    <Content Include="bg.html" />
     <Content Include="footer.html" />
+    <Content Include="images.html" />
     <Content Include="index.html" />
     <Content Include="links.aspx" />
+    <Content Include="logo1.html" />
     <Content Include="logo.html" />
     <Content Include="signin.aspx" />
+    <Content Include="signin2.aspx" />
     <Content Include="signup.aspx" />
+    <Content Include="homeuser.aspx" />
+    <Content Include="userslist.aspx" />
     <Content Include="Web.config" />
     <Content Include="welcome.html" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="homeadmin.aspx.cs">
+      <DependentUpon>homeadmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="homeadmin.aspx.designer.cs">
+      <DependentUpon>homeadmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="homeadmin.Master.cs">
+      <DependentUpon>homeadmin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="homeadmin.Master.designer.cs">
+      <DependentUpon>homeadmin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="hometome.aspx.cs">
+      <DependentUpon>hometome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hometome.aspx.designer.cs">
+      <DependentUpon>hometome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="homeuser.Master.cs">
+      <DependentUpon>homeuser.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="homeuser.Master.designer.cs">
+      <DependentUpon>homeuser.Master</DependentUpon>
+    </Compile>
     <Compile Include="links.aspx.cs">
       <DependentUpon>links.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -95,12 +135,33 @@
     <Compile Include="signin.aspx.designer.cs">
       <DependentUpon>signin.aspx</DependentUpon>
     </Compile>
+    <Compile Include="signin2.aspx.cs">
+      <DependentUpon>signin2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="signin2.aspx.designer.cs">
+      <DependentUpon>signin2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="signup.aspx.cs">
       <DependentUpon>signup.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="signup.aspx.designer.cs">
       <DependentUpon>signup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="homeuser.aspx.cs">
+      <DependentUpon>homeuser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="homeuser.aspx.designer.cs">
+      <DependentUpon>homeuser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="userslist.aspx.cs">
+      <DependentUpon>userslist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userslist.aspx.designer.cs">
+      <DependentUpon>userslist.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>

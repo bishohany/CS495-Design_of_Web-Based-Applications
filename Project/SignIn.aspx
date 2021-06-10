@@ -18,7 +18,7 @@
         conn.Open();
         reader = cmdSelect.ExecuteReader();
         if (reader.Read())
-            lblMsg.Text = "User Found.";
+            Response.Redirect("~/homeuser.aspx");
         else
             lblMsg.Text = "User Not Found!";
         conn.Close();
@@ -74,12 +74,18 @@
     <form id="form1" runat="server">
     <div class="style1">
     
+        <center>
+                    <asp:Image ID="Image1" runat="server" src="Images/bg2.jpg"  Width="50%"/>
+
+                    </center>
+        <br />
         <asp:Label ID="Label1" runat="server" Font-Names="Times New Roman" 
             Font-Size="X-Large" ForeColor="Maroon" 
             Text="Sign In Form" Font-Bold="True"></asp:Label>
         <br />
         <br />
         <table class="style1">
+            
             <tr>
                 <td class="auto-style3">
                     <asp:Label ID="Label2" runat="server" Font-Names="Arial" Font-Size="Medium" 
@@ -128,6 +134,7 @@
             </td>
         </tr>
     </table>
+        
     </form>
 </body>
 </html>
